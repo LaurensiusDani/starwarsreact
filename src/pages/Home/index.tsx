@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 import httpCall from '../../utils/httpCall';
+import {
+    DivContainerHome
+} from './style';
 
 function Home() {
     const fetchPeople = async () => {
