@@ -1,19 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
 
 function App() {
-  const [posts,setPosts]=useState()
-useEffect(()=>{
-  const url='https://swapi.dev/api/people'
-  fetch(url).then(resp=>resp.json())
-  .then(resp=>console.log(resp))
-},[])
   return (
-    <div className="App">
-      <h1 className="center">React App</h1>
-
-    </div>
-  );
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  )
 }
 
 export default App;
