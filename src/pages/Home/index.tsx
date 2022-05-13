@@ -243,7 +243,6 @@ function Home() {
                 "created": "2014-12-10T16:16:29.192000Z", 
                 "edited": "2014-12-20T21:17:50.325000Z", 
                 "url": "https://swapi.dev/api/people/10/"
-            
     </h1>
     )
 }
